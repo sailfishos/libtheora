@@ -1,8 +1,0 @@
-<package project="Mer:Trunk:Base" name="libtheora">
-  <title>Theora Video Compression Codec</title>
-  <description>Description: %{summary}
-
-
-</description>
-  <url>http://www.theora.org/</url>
-</package>
