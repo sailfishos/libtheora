@@ -26,7 +26,6 @@ Requires:   %{name} = %{version}-%{release}
 %description devel
 Description: %{summary}
 
-
 %prep
 %setup -q -n %{name}-%{version}/theora
 
@@ -42,6 +41,7 @@ make %{?jobs:-j%jobs}
 %install
 rm -rf %{buildroot}
 %make_install
+rm -rf %{buildroot}/usr/share/doc/libtheora
 
 %clean
 rm -rf %{buildroot}
