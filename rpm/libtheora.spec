@@ -34,7 +34,6 @@ Description: %{summary}
 ./autogen.sh
 %configure --disable-static \
     --enable-shared \
-    --disable-sdltest \
     --disable-examples
 
 # Call make instruction with smp support
