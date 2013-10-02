@@ -1,0 +1,3 @@
+[submodule "theora"]
+	path = theora
+	url = https://git.xiph.org/mirrors/theora.git
