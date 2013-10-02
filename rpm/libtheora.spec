@@ -6,7 +6,6 @@ Group:      System/Libraries
 License:    BSD
 URL:        http://www.theora.org/
 Source0:    http://downloads.xiph.org/releases/theora/%{name}-%{version}.tar.bz2
-Source100:  libtheora.yaml
 Requires(post):  /sbin/ldconfig
 Requires(postun):  /sbin/ldconfig
 BuildRequires:  pkgconfig(ogg)
