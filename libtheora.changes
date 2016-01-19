@@ -1,3 +1,6 @@
+* Fri Jan 22 2016 Martin Ghosal <martin_ghosal@hotmail.co.uk> - 1.1.1
+- Updated config.guess and config.sub
+
 * Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.1.1
 - Updated with latest spectacle
 - Include YAML file in source rpm
