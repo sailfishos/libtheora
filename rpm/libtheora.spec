@@ -54,7 +54,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc COPYING
+%license COPYING
 %{_libdir}/libtheora.so.*
 %{_libdir}/libtheoradec.so.*
 %{_libdir}/libtheoraenc.so.*
