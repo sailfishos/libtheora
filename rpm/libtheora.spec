@@ -3,7 +3,7 @@ Summary:    Theora Video Compression Codec
 Version:    1.2.0alpha1
 Release:    1
 License:    BSD
-URL:        http://www.theora.org/
+URL:        https://github.com/sailfishos/libtheora
 Source0:    http://downloads.xiph.org/releases/theora/%{name}-%{version}.tar.bz2
 Requires(post):  /sbin/ldconfig
 Requires(postun):  /sbin/ldconfig
